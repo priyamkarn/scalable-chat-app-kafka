@@ -49,6 +49,6 @@ io.on('connection', (socket) => {
 
 // Start the server and Kafka consumer
 server.listen(3001, () => {
-  console.log('Server running on port 3000');
+  console.log('Server running on port 3001');
   connectConsumer();
 });
